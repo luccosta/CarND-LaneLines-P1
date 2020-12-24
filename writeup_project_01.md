@@ -51,7 +51,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 For the challenge I first modified the four sided polygon mask and other pixel quantitys making the sizes based on the proportions of the image.
 
-Noticing that a lot of detected lines where false positives, the approach to select the lines that were lanes was find a range of slope values that usually fit the real lanes and discard lines with the slope out of this.
+Noticing that a lot of detected lines were false positives, the approach to select the lines that were lanes was find a range of slope values that usually fit the real lanes and discard lines with the slope out of this.
 
 
 ### 2. Identify potential shortcomings with your current pipeline
